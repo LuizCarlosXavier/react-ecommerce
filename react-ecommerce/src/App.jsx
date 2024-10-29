@@ -11,10 +11,12 @@ import Orders from './pages/Orders'
 import PlaceOrders from './pages/PlaceOrders'
 import Product from './pages/Product'
 import Women from './pages/Women'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+      <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
